@@ -1,0 +1,10 @@
+﻿body {
+}
+.custom-color {
+    color: #0094ff
+}
+.transparent-background {
+    background-color: rgba(255, 255, 255, 0.8); /* Whitish color with 80% opacity */
+    padding: 20px; /* Optional: adds padding inside the div */
+    border-radius: 10px; /* Optional: rounds the corners of the div */
+}
