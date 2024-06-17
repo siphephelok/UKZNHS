@@ -54,5 +54,15 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; <%= DateTime.Now.Year %> UKZN Clinic. All rights reserved.</p>
+            <p>University of KwaZulu-Natal, Durban, South Africa</p>
+        </div>
+    </footer>
+
+    <script src="../../Libs/Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
