@@ -11,7 +11,7 @@ namespace UKZNHS.Views.Guest
 {
 
 
-    public partial class Home
+    public partial class AboutUs
     {
     }
 }

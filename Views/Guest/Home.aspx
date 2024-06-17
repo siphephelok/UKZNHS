@@ -4,14 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>UKZN Clinic</title>
     <link rel="stylesheet" href="../../Libs/Bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
-    <!--<form id="form1" runat="server">
-        <div>
-        </div>
-    </form>-->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -22,36 +18,38 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="">Doctors</a>
+                            <a class="nav-link" href="#">Doctors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Laboratorian</a>
+                            <a class="nav-link" href="#">Laboratorian</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Receptionist</a>
+                            <a class="nav-link" href="#">Receptionist</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.aspx">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Login.aspx">Login</a>
+                            <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Login.aspx">Log In</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
         <div class="row" style="background-image: url(../../Assets/Images/Home.jpg); height: 480px; background-size: cover; background-repeat: no-repeat; background-position: center">
-            <div class="col-md-2">
-
-            </div>
+            <div class="col-md-2"></div>
             <div class="col-md-5">
-                <div class="row" style="height:100px">
-
-                </div>
+                <div class="row" style="height: 100px"></div>
                 <h2>Your Health is our only Priority</h2>
                 <h2>Always servicing you and Taking Care Of you</h2>
-                <p class="h6">Our Clinic has been created in 2024 by a group of people who wanted to really take</p>
-                <p class="h6">care of the health of the University Of KwaZulu-Natal population.</p><br/>
-                <button class="btn btn-primary">Contact Us</button>
-                <button class="btn border-primary text-primary bg-transparent">Feedback</button>
+                <p class="h6">Our Clinic has been created in 2024 by a group of people who wanted to really take care of the health of the University Of KwaZulu-Natal population.</p>
+                <br />
+                <a href="ContactUs.aspx" class="btn btn-primary">Contact Us</a>
+                <a href="Feedback.aspx" class="btn border-primary text-primary bg-transparent">Feedback</a>
             </div>
         </div>
         <div class="row bg-primary">
@@ -67,7 +65,6 @@
                             <p class="h6">The Clinic has a Surgery Department with highly qualified Doctors</p>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-md-3 bg-light offset-1 rounded-3">
                     <div class="row">
@@ -76,7 +73,7 @@
                         </div>
                         <div class="col-7">
                             <h5 class="text-center">Urology</h5>
-                            <p class="h6">The Clinic has a Surgery Department with highly qualified Doctors</p>
+                            <p class="h6">Our Urology Department specializes in treating diseases and disorders of the urinary tract and male reproductive organs with the help of our expert urologists.</p>
                         </div>
                     </div>
                 </div>
@@ -87,12 +84,11 @@
                         </div>
                         <div class="col-7">
                             <h5 class="text-center">Ophthalmology</h5>
-                            <p class="h6">The Clinic has a Surgery Department with highly qualified Doctors</p>
+                            <p class="h6">Our Ophthalmology Department is equipped with modern technology and skilled doctors to take care of all your eye health needs.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="row" style="height: 22px"></div>
         </div>
     </div>

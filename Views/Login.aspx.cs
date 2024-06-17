@@ -106,7 +106,7 @@ namespace UKZNHS.Views
             }
             else
             {
-
+                Response.Redirect("~/Views/Guest/Home.aspx");
             }
         }
 

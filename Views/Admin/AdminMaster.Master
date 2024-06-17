@@ -42,7 +42,7 @@
                         <a class="nav-link" href="Receptionist.aspx">Receptionist</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../Views/Guest/Home.aspx">Logout</a>
+                        <a class="nav-link" href="../../../Views/Guest/Home.aspx">Log Out</a>
                     </li>
                 </ul>
             </div>
